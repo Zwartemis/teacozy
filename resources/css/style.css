@@ -49,16 +49,11 @@ li {
   text-decoration: underline;
 }
 
-/* Main content container
+/* Main content container */
 
 .main-container {
-  background-color: darkorange;
-  margin: 10px auto 75px auto;
-  display: flex;
-  justify-content: center;
 }
 
-*/
 
 /* Mission */
 
@@ -66,10 +61,12 @@ li {
   background-image: url('../images/img-mission-background.jpg');
   width: 1200px;
   height: 700px;
-  display: flex;
+  display: inline-flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 0px;
+  margin: 25px auto;
 }
 
 .mission-float {
@@ -78,11 +75,12 @@ li {
   width: 100%;
 }
 
-/* Tea Selecion */
+/* Featured Teas Section */
 
 .featured-teas {
   background-color: limegreen;
   width: 1000px;
+  margin: 25px auto;
 }
 
 .tea-selection {
@@ -102,4 +100,34 @@ li {
 
 .tea h4 {
   margin-top: 10px;
+}
+
+/* Locations Section */
+
+.locations {
+  background-image: url('../images/img-locations-background.jpg');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+  width: 1200px;
+  margin: 25px auto;
+}
+
+.locations h2 {
+  margin: 0px;
+}
+
+.location-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.loc {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  margin: 15px 20px;
 }
