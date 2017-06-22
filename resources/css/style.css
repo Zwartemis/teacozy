@@ -4,8 +4,12 @@ body {
   font-size: 22px;
   color: seashell;
   background-color: black;
-  opacity: 0.9;
   text-align: center;
+}
+
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
 }
 
 /* Header */
@@ -16,7 +20,7 @@ header {
   height: 69px;
   width: 100%;
   align-items: center;
-  background-color: red;
+  background-color: black;
   top: 0;
   border-bottom: 1px solid seashell;
   z-index: 5;
@@ -40,7 +44,6 @@ ul {
   display: flex;
   margin: 0px;
   padding: 0px;
-  background-color: silver;
 }
 
 li {
@@ -52,6 +55,10 @@ li {
 /* Main content container */
 
 .main-container {
+  padding-top: 69px;
+  width: 1200px;
+  margin: auto;
+  opacity: 0.9;
 }
 
 
@@ -65,8 +72,7 @@ li {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0px;
-  margin: 25px auto;
+  padding-top: 70px;
 }
 
 .mission-float {
@@ -78,9 +84,10 @@ li {
 /* Featured Teas Section */
 
 .featured-teas {
-  background-color: limegreen;
   width: 1000px;
-  margin: 25px auto;
+  height: 700px;
+  padding-top: 70px;
+  margin: auto;
 }
 
 .tea-selection {
@@ -111,7 +118,8 @@ li {
   justify-content: center;
   height: 500px;
   width: 1200px;
-  margin: 25px auto;
+  padding-top: 70px;
+  margin: auto;
 }
 
 .locations h2 {
