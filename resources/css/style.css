@@ -8,6 +8,8 @@ body {
   text-align: center;
 }
 
+/* Header */
+
 header {
   display: flex;
   position: fixed;
@@ -19,16 +21,18 @@ header {
   border-bottom: 1px solid seashell;
 }
 
+.logo {
+  height: 50px;
+  margin-left: 10px;
+}
+
+/* Navigation */
+
 nav {
   display: flex;
   justify-content: flex-end;
   width: 100%;
   margin-right: 10px;
-}
-
-.logo {
-  height: 50px;
-  margin-left: 10px;
 }
 
 ul {
@@ -42,4 +46,30 @@ li {
   display: inline-block;
   padding: 20px 10px;
   text-decoration: underline;
+}
+
+/* Main content container
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1600px;
+}
+
+*/
+
+/* Mission */
+
+.mission {
+  background-image: url('../images/img-mission-background.jpg');
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+}
+
+.mission-float {
+  background-color: black;
+  opacity: 0.9;
+  width: 100%;
 }
