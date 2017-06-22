@@ -131,3 +131,23 @@ li {
   width: 300px;
   margin: 15px 20px;
 }
+
+/* Footer Section */
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact {
+  height: 200px;
+  display: block;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+  display: block;
+  width: 100%;
+  align-items: flex-end;
+}
